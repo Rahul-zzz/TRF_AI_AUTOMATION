@@ -1,0 +1,14 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/*.db
+data/uploads/*
+data/processed/*
+data/exports/*
+!data/uploads/.gitkeep
+!data/processed/.gitkeep
+!data/exports/.gitkeep
+.streamlit/secrets.toml
